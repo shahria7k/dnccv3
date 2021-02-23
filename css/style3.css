@@ -1,0 +1,420 @@
+
+/**
+ *
+ * fonts
+ *
+ */
+
+
+ @import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+ /**
+  *
+  * fonts
+  *
+  */
+ 
+ /*=============================================
+ =            globals            =
+ =============================================*/
+ 
+ * {
+     padding: 0;
+     margin: 0;
+     outline: 0;
+     scroll-behavior: smooth;
+ }
+ 
+ body {
+     font-family: 'SolaimanLipi', Arial, sans-serif !important;
+     /*font-family: 'Lora', serif;*/
+     
+     /* font-family: 'Baloo Da 2', cursive; */
+     
+     
+     
+     
+     overflow-x: hidden;
+     scroll-behavior: smooth;
+     background-size: cover;
+     background-image: url(../bg_main.gif);
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ a,
+ a:hover {
+     text-decoration: none;
+ }
+ 
+ ul li {
+     list-style: none;
+ }
+ 
+ img {
+     vertical-align: middle;
+     border: none;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ a,
+ p,
+ img,
+ ul,
+ ol,
+ li,
+ navbar-brand {
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ h1 {
+     font-size: 60px;
+     font-weight: 500;
+ }
+ 
+ h2 {
+     font-weight: 500;
+ }
+ 
+ /*=====  End of globals  ======*/
+ 
+ 
+ /*=============================================
+ =            ,banner-part            =
+ =============================================*/
+ .banner-top{
+     background-image: url(../resources/img/cover/Digital-bangladesh-e-councilor-portal.jpg);
+     background-position: center;
+     background-size: cover;
+     height: auto;
+ }
+ .container2{
+     background-color: rgba(201, 201, 201, .7);
+ }
+ .logo img{
+     width: 150px !important ;
+     
+ }
+ 
+ #mj100{
+     height: 300px;
+ }
+ #mj100 img{
+     width: 300px;
+ }
+ .img-1{
+     background-image: url(../resources/img/cover/Digital-bangladesh-e-councilor-portal.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 300px;
+ }
+ 
+ /*=====  End of ,banner-part  ======*/
+ 
+ 
+ 
+ 
+ /*=============================================
+ =            nav section           =
+ =============================================*/
+ 
+ 
+ #content{
+     background-color: rgba(50, 74, 136, .9);
+     height: 50px;
+ }
+ 
+ #rotate{
+     position: absolute;
+     right: -40px;
+     width: 200px;
+     height: 100px;
+     
+     
+ }
+ .rotate1{
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .sticky.is-sticky {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     z-index: 100000;
+     height: auto;
+     transition: 1s; 
+ }
+ 
+ /*=====  End of  nav section    ======*/
+ 
+ 
+ 
+ /*=============================================
+ =            latest news            =
+ =============================================*/
+ 
+ 
+ /*=====  End of latest news  ======*/
+ 
+ 
+ /*=============================================
+ =            about            =
+ =============================================*/
+ 
+ .about-container{
+     transform: translateY(-100px);
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     -webkit-transform: translateY(-100px);
+     -moz-transform: translateY(-100px);
+     -ms-transform: translateY(-100px);
+     -o-transform: translateY(-100px);
+ }
+ 
+ .img-2{
+     background-image: url(https://bangladeshinformation.info/wp-content/uploads/2015/03/Beautiful-Bangladesh-Land-Of-Stories.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 350px;
+ }
+ 
+ /*=====  End of about  ======*/
+ 
+ 
+ 
+ 
+ 
+ 
+ /*=============================================
+ =            servicces            =
+ =============================================*/
+ 
+ 
+ #servID{
+     background: #F8FAFB;
+     
+     padding-top: 30px;
+     padding-bottom: 100px;
+ }
+ /*#services{
+ }*/
+ .service-items .sr-item{
+   border-radius: 5px;
+   height: 260px;
+   width: 90%;
+   transition: all linear .3s;
+   position: relative;
+   background: #fff;
+   margin: auto;
+ }
+ .service-items .sr-item:before{
+   /*background: #007bff;
+   */background: orange;
+   position: absolute;
+   content: '';
+   /*height: 0px;
+   width: 4px;
+   top: 50%;
+   right: 0;
+   *//*bottomstyle*/height: 4px;
+   width: 70px;
+   left: 50%;
+   bottom: 0;
+   /*bottonstyle*/transform: translate(-50%, -50%);
+   transition: all linear .5s;
+   border-radius: 0px 5px 5px 0px;
+   -webkit-transition: all linear .5s;
+   -moz-transition: all linear .5s;
+   -ms-transition: all linear .5s;
+   -o-transition: all linear .5s;
+ }
+ .service-items .sr-item:hover:before{
+   /*height: 100%;*/
+   width: 100%
+ }
+ .service-items .sr-item:hover{
+   box-shadow: 0 5px 20px rgba(0, 123, 255,.2);
+ }
+ .service-items .sr-item p{
+   margin: 10px;
+ }
+ .service-items .sr-icon i{
+     font-size: 50px;
+     /*color: #007bff;*/
+     color: orange;
+ }
+ 
+ /*=====  End of services   ======*/
+ 
+ 
+ 
+ 
+ /*  #cf img.top:hover {
+     opacity:0;
+   } */
+   .nav-item a{
+     transition: all linear .5s;
+     -webkit-transition: all linear .5s;
+     -moz-transition: all linear .5s;
+     -ms-transition: all linear .5s;
+     -o-transition: all linear .5s;
+     font-size: 14px;
+     color: rgb(31, 30, 30) !important;
+ }
+   .nav-item a:hover {
+     background-color: #fff;
+   }
+   .nav-item::after{
+     content: '';
+     height: 100%;
+     width: 2px;
+     z-index: 999999;
+     background-color: #fff;
+   }
+   .navbar a.active{
+     background-color: #fff;
+     border-radius: 2px;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     -ms-border-radius: 2px;
+     -o-border-radius: 2px;
+     width: 100px;
+     
+ }
+ .bg-nav{
+   background-color: rgb(54, 150, 237);
+ }
+ .jahid-nav{
+     display: block;
+     width: 100%;
+ }
+ .imgBx{
+     position: relative;
+     width: 500px;
+     height: 400px;
+     left: 25px;
+     z-index: 1;
+     overflow: hidden;
+     margin-top: 30px;
+ }
+ 
+ .imgBx .slider-part{
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+ }
+ 
+ 
+ 
+ .contentBx{
+     right: 25px;
+     width: 500px;
+     height: 455px;
+     padding: 20px 60px 20px 100px;
+ }
+ .contentBx{
+     background: url(../img/loveimg.jpg)no-repeat;
+     -webkit-background-size: cover;
+     background-size: cover;
+     background-size: 100% 50%;
+ }
+ .content{
+     height: 250px;
+     width: 250px;
+     background: #000;
+     border-radius: 50%;
+     overflow: hidden;
+     margin-top: 90px;
+     border: 5px solid #fff;
+     margin-left: 20px;
+ }
+ .content img{
+     height: 110%;
+ }
+ .con-title h1{
+     font-weight: 700;
+     font-size: 30px;
+     padding-top: 20px;
+     padding-left: 20px;
+ }
+ 
+ 
+ /*------------------------------------------*/
+ 
+ .aboutSlider{
+     height: 450px;
+     width: 90%;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+ .aboutSlider iframe{
+     height: 150%;
+ }
+ .ab-left{
+     padding-right: 50px;
+ }
+ .ab-left h1{
+     font-weight: 600;
+     font-size: 50px;
+ }
+ .ab-left p{
+     color: gray;
+     font-size: 14px;
+     text-align: justify;
+ }
+ .address-part ul li{
+     margin-bottom: 12px;
+ }
+ .address-part ul li a{
+     font-size: 14px;
+     color: gray;
+ 
+ }
+ 
+ .socail-part ul{
+     display: -webkit-flex;
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: flex;
+ 
+ }
+ .socail-part ul li a{
+     display: block;
+     justify-content: center;
+     align-items: center;
+     height: 30px;
+     width: 30px;
+     border-radius: 10%;
+     background: gray;
+     display: block;
+     display: -webkit-flex;
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 8px;
+     color: #fffdfdc7;
+ }
+ 
+ .carousel img {
+     width: 100%;
+   }
